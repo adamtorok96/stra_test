@@ -49,7 +49,7 @@ class UserSeeder extends Seeder
          */
         $user_3 = User::create([
             'username' => 'User_3',
-            'password' => Hash::make('Usser_3_pass')
+            'password' => Hash::make('User_3_pass')
         ]);
 
         $user_3->assignRole('loggedInUser');
