@@ -32,6 +32,7 @@ class UserSeeder extends Seeder
         ]);
 
         $user_1->assignRole('contentEditor');
+        $user_1->assignRole('loggedInUser');
 
         /**
          * @var $user_2 User
